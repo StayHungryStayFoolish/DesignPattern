@@ -25,7 +25,7 @@
 |行为型模式| Behavioral Pattern	|备忘录模式 Memento Pattern	|★★☆☆☆	|★★☆☆☆|
 |行为型模式| Behavioral Pattern	|观察者模式 Observer Pattern	|★★★☆☆	|★★★★★|
 |行为型模式| Behavioral Pattern	|状态模式 State Pattern	|★★★☆☆|	★★★☆☆|
-|行为型模式| Behavioral Pattern	|策略模式 Strategy Pattern	|★☆☆☆☆	★★★★☆|
+|行为型模式| Behavioral Pattern	|策略模式 Strategy Pattern	|★☆☆☆☆|	★★★★☆|
 |行为型模式| Behavioral Pattern	|模板方法模式 Template Method Pattern	|★★☆☆☆|	★★★☆☆|
 |行为型模式| Behavioral Pattern	|访问者模式 Visitor Pattern	|★★★★☆|	★☆☆☆☆|
 
