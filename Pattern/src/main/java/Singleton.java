@@ -36,14 +36,14 @@
  */
 public class Singleton {
 
-    private final static SingletonTest INSTANCE = new SingletonTest();
+    private final static Singleton INSTANCE = new Singleton();
 
-    private SingletonTest() {
+    private Singleton() {
     }
 
     ;
 
-    public static SingletonTest newInstance() {
+    public static Singleton newInstance() {
         return INSTANCE;
     }
 }
@@ -156,7 +156,7 @@ class SingletonFive {
 
 class Test {
     public static void main(String[] args) {
-        System.out.println(SingletonTest.newInstance());
+        System.out.println(Singleton.newInstance());
         System.out.println(SingletonTwo.newInstance());
         System.out.println(SingletonThree.newInstance());
         System.out.println(SingletonFour.newInstance());
