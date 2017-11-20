@@ -9,6 +9,14 @@
  * 保证只创建一次类实例
  * 延迟加载
  * 线程安全
+ * <p>
+ * 推荐使用
+ * 4、双重校验锁 -- 模式
+ * 5、静态内部类 -- 模式
+ * <p>
+ * 保证只创建一次类实例
+ * 延迟加载
+ * 线程安全
  */
 /**
  *  推荐使用
@@ -140,11 +148,11 @@ class SingletonFour {
  */
 class SingletonFive {
 
-    private static class SingletonHolder {
-        public static SingletonFive instance = new SingletonFive();
+    private SingletonFive() {
     }
 
-    private SingletonFive() {
+    private static class SingletonHolder {
+        public static SingletonFive instance = new SingletonFive();
     }
 
     public static SingletonFive newInstance() {
