@@ -101,6 +101,8 @@ class ArrayList<T> implements List<T> {
     }
 }
 
+
+
 /******** ConcreteFactory 具体工厂类 **********/
 class LinkedList<T> implements List<T> {
 
